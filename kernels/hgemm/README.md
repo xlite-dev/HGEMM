@@ -1,6 +1,6 @@
 # ⚡️⚡️Toy-HGEMM Library: Achieve the performance of cuBLAS
 
-![toy-hgemm-library](https://github.com/user-attachments/assets/d604f4c1-72d5-49da-b046-2b3856ddf164)
+![toy-hgemm-library](https://github.com/user-attachments/assets/962bda14-b494-4423-b8eb-775da9f5503d)
 
 [📖toy-hgemm library⚡️⚡️](./kernels/hgemm) is library that write HGEMM kernels from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API, thus, can achieve `98%~100%` performance of **cuBLAS**.
 
