@@ -27,6 +27,18 @@ Currently, on NVIDIA L20, RTX 4090 and RTX 3080 Laptop, compared with cuBLAS's d
 |Collective Store (Warp Shuffle & Reg Reuse)|Row Major (NN)|Col Major (TN)|SGEMM FP32/TF32|
 |✔️|✔️|✔️|✔️|
 
+## ©️Citations🎉🎉
+
+```BibTeX
+@misc{hgemm-tensorcores-mma@2024,
+  title={hgemm-tensorcores-mma: Write HGEMM from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API.},
+  url={https://github.com/DefTruth/hgemm-tensorcores-mma},
+  note={Open-source software available at https://github.com/DefTruth/hgemm-tensorcores-mma},
+  author={DefTruth etc},
+  year={2024}
+}
+```
+
 ## 📖 HGEMM CUDA Kernels in Toy-HGEMM Library 🎉🎉 
 
 <div id="kernels"></div>  
