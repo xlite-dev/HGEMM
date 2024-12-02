@@ -1,10 +1,9 @@
-<!--
-## ⚡️⚡️Toy-HGEMM Library: Achieve the performance of cuBLAS
--->
+
+## ⚡️⚡️Toy-HGEMM Library: Achieve the 98%~100% performance of cuBLAS
 
 ![toy-hgemm-library](https://github.com/user-attachments/assets/962bda14-b494-4423-b8eb-775da9f5503d)
 
-[📖Toy-HGEMM Library⚡️⚡️](./kernels/hgemm) is library that write HGEMM kernels from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API, thus, can achieve `98%~100%` performance of **cuBLAS**. The codes here are sources from 📖[CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes)  ![](https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes.svg?style=social) as a standalone library, please checkout 📖[CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) for latest updates.
+[📖Toy-HGEMM Library⚡️⚡️](./kernels/hgemm) is a library that write many HGEMM kernels from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API, thus, can achieve `98%~100%` performance of **cuBLAS**. The codes here are source from 📖[CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes)  ![](https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes.svg?style=social) as a standalone library, checkout 📖[CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) for latest updates.
 
 <div id="hgemm-sgemm"></div>  
 
