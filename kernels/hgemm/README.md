@@ -371,3 +371,4 @@ TODO
 - [cuda_learning](https://github.com/ifromeast/cuda_learning)
 - [cuda_hgemm](https://github.com/Bruce-Lee-LY/cuda_hgemm)
 - [cuda-tensorcore-hgemm](https://github.com/nicolaswilde/cuda-tensorcore-hgemm)
+- [cute_gemm](https://github.com/weishengying/cute_gemm)
