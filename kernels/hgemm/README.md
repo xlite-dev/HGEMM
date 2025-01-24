@@ -1,5 +1,5 @@
 
-## ⚡️⚡️Toy-HGEMM Library: May achieve the 98%~100% performance of cuBLAS 🎉🎉
+# ⚡️⚡️Toy-HGEMM: Achieve the 98%~100% TFLOPS of cuBLAS 🎉🎉
 
 ![toy-hgemm-library](https://github.com/user-attachments/assets/962bda14-b494-4423-b8eb-775da9f5503d)
 
@@ -19,11 +19,11 @@ Currently, on NVIDIA L20, RTX 4090 and RTX 3080 Laptop, compared with cuBLAS's d
 |CUDA Cores|Sliced K (Loop over K)|Tile Block (BMxBN)|Tile Thread (t 8x8)|
 |:---:|:---:|:---:|:---:|
 |✔️|✔️|✔️|✔️|
-|WMMA (m16n16k16)|MMA (m16n8k16)|Pack LDST(pack 128 bits)|SMEM Padding|
+|WMMA (m16n16k16)|MMA (m16n8k16)|Pack LDST (pack 128 bits)|SMEM Padding|
 |✔️|✔️|✔️|✔️|
 |Copy Async (cp.async.cg/ca)|Tile MMA (More Threads)|Tile Warp (More Values)|Multi Stages(2/3/4/5)|  
 |✔️|✔️|✔️|✔️|
-|Register Double Buffers|Block Swizzle (Zigzag N)|Warp Swizzle (Zigzag N)| SMEM Swizzle (CUTLASS/CuTe)|
+|Register Double Buffers|Block Swizzle (Zigzag N)|Warp Swizzle (Zigzag N)| SMEM Swizzle (CuTe/MMA) |
 |✔️|✔️|✔️|✔️|
 |Collective Store (Warp Shuffle & Reg Reuse)|Row Major (NN)|Col Major (TN)|SGEMM FP32/TF32|
 |✔️|✔️|✔️|✔️|
@@ -79,6 +79,8 @@ void hgemm_mma_m16n8k16_mma2x4_warp4x4x2_stages_dsmem_x4(torch::Tensor a, torch:
 void hgemm_mma_m16n8k16_mma2x4_warp4x4x2_stages_dsmem_rr(torch::Tensor a, torch::Tensor b, torch::Tensor c, int stages, bool swizzle, int swizzle_stride);
 void hgemm_mma_m16n8k16_mma2x4_warp4x4_stages_dsmem_tn(torch::Tensor a, torch::Tensor b, torch::Tensor c, int stages, bool swizzle, int swizzle_stride);
 void hgemm_mma_stages_block_swizzle_tn_cute(torch::Tensor a, torch::Tensor b, torch::Tensor c, int stages, bool swizzle, int swizzle_stride);
+void hgemm_mma_m16n8k16_mma2x4_warp4x4x2_stages_dsmem_swizzle(torch::Tensor a, torch::Tensor b, torch::Tensor c, int stages, bool swizzle, int swizzle_stride);
+void hgemm_mma_m16n8k16_mma2x4_warp4x4x2_stages_dsmem_tn_swizzle_x4(torch::Tensor a, torch::Tensor b, torch::Tensor c, int stages, bool swizzle, int swizzle_stride);
 ```
 
 ## 📖 Contents
