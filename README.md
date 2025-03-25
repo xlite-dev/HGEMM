@@ -3,7 +3,7 @@
 
 ![toy-hgemm-library](https://github.com/user-attachments/assets/962bda14-b494-4423-b8eb-775da9f5503d)
 
-[📖Toy-HGEMM Library⚡️⚡️](./kernels/hgemm) is a library that write many HGEMM kernels from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API, thus, can achieve `98%~100%` performance of **cuBLAS**. The codes here are source from 📖[CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes)  ![](https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes.svg?style=social) and exported as a standalone library, please checkout [CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) for latest updates. Welcome to 🌟👆🏻star this repo to support me, many thanks ~ 🎉🎉
+[📖Toy-HGEMM Library⚡️⚡️](./kernels/hgemm) is a library that write many HGEMM kernels from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API, thus, can achieve `98%~100%` performance of **cuBLAS**. The codes here are source from 📖[CUDA-Learn-Notes](https://github.com/xlite-dev/CUDA-Learn-Notes)  ![](https://img.shields.io/github/stars/xlite-dev/CUDA-Learn-Notes.svg?style=social) and exported as a standalone library, please checkout [CUDA-Learn-Notes](https://github.com/xlite-dev/CUDA-Learn-Notes) for latest updates. Welcome to 🌟👆🏻star this repo to support me, many thanks ~ 🎉🎉
 
 <div id="hgemm-sgemm"></div>  
 
@@ -29,9 +29,9 @@ Currently, on NVIDIA L20, RTX 4090 and RTX 3080 Laptop, compared with cuBLAS's d
 ```BibTeX
 @misc{hgemm-mma@2024,
   title={hgemm-mma: Write HGEMM from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API.},
-  url={https://github.com/DefTruth/hgemm-mma},
-  note={Open-source software available at https://github.com/DefTruth/hgemm-mma},
-  author={DefTruth etc},
+  url={https://github.com/xlite-dev/hgemm-mma},
+  note={Open-source software available at https://github.com/xlite-dev/hgemm-mma},
+  author={xlite-dev etc},
   year={2024}
 }
 ```
