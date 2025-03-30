@@ -27,10 +27,10 @@ Currently, on NVIDIA L20, RTX 4090 and RTX 3080 Laptop, compared with cuBLAS's d
 ## ©️Citations🎉🎉
 
 ```BibTeX
-@misc{hgemm-mma@2024,
-  title={hgemm-mma: Write HGEMM from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API.},
-  url={https://github.com/xlite-dev/hgemm-mma},
-  note={Open-source software available at https://github.com/xlite-dev/hgemm-mma},
+@misc{hgemm-tensorcores-mma@2024,
+  title={hgemm-tensorcores-mma: Write HGEMM from scratch using Tensor Cores with WMMA, MMA PTX and CuTe API.},
+  url={https://github.com/xlite-dev/hgemm-tensorcores-mma},
+  note={Open-source software available at https://github.com/xlite-dev/hgemm-tensorcores-mma},
   author={xlite-dev etc},
   year={2024}
 }
